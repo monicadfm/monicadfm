@@ -14,17 +14,29 @@
 <img src="divider.svg" width="100%" />
 
 ```bash
-monica@dev:~$ cat about.txt
+monica@dev:~$ cat About.cs
 ```
 
-- Hi, I'm **Mónica**, a backend-focused software developer from **Portugal**
-- Finishing my **CET in Information Systems Technologies & Programming** (Level 5) at **CINEL**
-- I build both sides of the app: the **REST API and database** underneath, and the interface people click on
-- Most at home in **C# / ASP.NET Core Web API** with **SQL Server**, with **.NET MAUI** for mobile
-- I like to plan before I code: use-case, class and ER diagrams in **UML**
-- Before code, I worked customer-facing roles in Portugal and **Stockholm, Sweden**, so teamwork and clear communication come naturally
-- Portuguese (native) · English (C2) · Spanish (A2)
-- **Currently looking for an internship in backend / software development**
+```csharp
+public class Monica : Developer
+{
+    public string   Role        => "Backend Developer";
+    public string   Location    => "Portugal";
+    public string   Education   => "CET Level 5, IT Systems & Programming @ CINEL";
+
+    public string[] Backend     => ["C#", "ASP.NET Core Web API", "REST", "SQL Server"];
+    public string[] Frontend    => ["HTML", "CSS", "JavaScript", ".NET MAUI"];
+    public string[] Planning    => ["UML", "Use-case", "Class & ER diagrams"];
+
+    public string[] Languages   => ["Portuguese (native)", "English (C2)", "Spanish (A2)"];
+    public string   Experience  => "Customer-facing roles in Portugal & Stockholm, Sweden";
+
+    public bool     OpenToInternships => true;
+}
+```
+
+> **I build both sides of the app:** the REST API and database underneath, and the interface people click on.
+> Currently looking for an **internship in backend / software development**.
 
 <img src="divider.svg" width="100%" />
 
@@ -36,9 +48,10 @@ monica@dev:~$ ls ./projects
   A web + mobile platform for collecting virtual characters: gacha-style pulls with rarities and a pity system, limited-time banners, friendship levels with characters, daily rewards and a full admin dashboard with audit logging.<br>
   <sub>`ASP.NET Core Web API` · `C#` · `SQL Server` · `HTML/CSS/JS` · `.NET MAUI` · `Git`</sub>
 
-- **Roguelike Sidescroller**: *academic project*<br>
+- **[Roguelike Sidescroller](https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html)**: *academic project*<br>
   A browser roguelike built from scratch with vanilla JavaScript and canvas.<br>
-  <sub>`JavaScript` · `HTML` · `CSS`</sub>
+  <sub>`JavaScript` · `HTML` · `CSS`</sub><br>
+  [![Play in browser](https://img.shields.io/badge/%E2%96%B6_Play_in_browser-FF4F9A?style=flat-square&labelColor=1A1A1A)](https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html)
 
 - **Pixel-art Profile Banner**: *this page's header*<br>
   An animated SVG banner generated with a Python script: custom pixel font, SMIL animations, fireworks drawn with trigonometry.<br>
@@ -52,7 +65,7 @@ monica@dev:~$ ls ./projects
 
 <img src="divider.svg" width="100%" />
 
-### 🎀 Tech Stack
+### 🖤 Tech Stack
 
 <div align="center">
 
@@ -65,7 +78,7 @@ monica@dev:~$ ls ./projects
 
 <img src="divider.svg" width="100%" />
 
-### 🎀 Stats
+### 💗 Stats
 
 <div align="center">
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=monicadfm&show_icons=true&count_private=true&bg_color=FFE4EF&title_color=FF4F9A&icon_color=1A1A1A&text_color=1A1A1A&border_color=1A1A1A&ring_color=FF4F9A" />
@@ -78,7 +91,7 @@ monica@dev:~$ ls ./projects
 
 <img src="divider.svg" width="100%" />
 
-### 🎀 Contribution
+### 🖤 Contribution
 
 <div align="center">
 <picture>
@@ -90,15 +103,13 @@ monica@dev:~$ ls ./projects
 
 <img src="divider.svg" width="100%" />
 
-### 🎀 Get in Touch
+### 💗 Get in Touch
 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-miamonicamoura%40gmail.com-FF4F9A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1A1A)](mailto:miamonicamoura@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-M%C3%B3nica_Moura-FF4F9A?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1A1A)](https://www.linkedin.com/in/monica-moura-dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-monicadfm-FF4F9A?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A)](https://github.com/monicadfm)
-
-<br><br>
 
 <img src="footer.svg" width="760" alt="Thanks for visiting" />
 
