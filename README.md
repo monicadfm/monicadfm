@@ -30,6 +30,7 @@ public class Monica : Developer
 
     public string[] Languages   => ["Portuguese (native)", "English (C2)", "Spanish (A2)"];
     public string   Experience  => "Customer-facing roles in Portugal & Stockholm, Sweden";
+    public string   Building    => "WishBound mobile app (.NET MAUI)";
 
     public bool     OpenToInternships => true;
 }
@@ -48,14 +49,20 @@ monica@dev:~$ ls ./projects
   A web + mobile platform for collecting virtual characters: gacha-style pulls with rarities and a pity system, limited-time banners, friendship levels with characters, daily rewards and a full admin dashboard with audit logging.<br>
   <sub>`ASP.NET Core Web API` · `C#` · `SQL Server` · `HTML/CSS/JS` · `.NET MAUI` · `Git`</sub>
 
-- **[Roguelike Sidescroller](https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html)**: *academic project*<br>
-  A browser roguelike built from scratch with vanilla JavaScript and canvas.<br>
-  <sub>`JavaScript` · `HTML` · `CSS`</sub>
+- **[Portfolio](https://github.com/monicadfm/Portfolio)**: *personal site*<br>
+  Built from scratch with HTML, CSS and vanilla JavaScript: a frontend/backend slider that shows my profile as a UI card or as a JSON API response, a WishBound banner simulator with weighted pulls and pity, live GitHub API data, light/dark mode and accessibility support.<br>
+  <sub>`HTML` · `CSS` · `JavaScript` · `GitHub API`</sub>
+
+  <a href="https://monicadfm.github.io/Portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6-Visit_site-FF4F9A?style=flat-square&labelColor=1A1A1A" alt="Visit site" /></a>
+
+- **[Side-Scroller Survival Game](https://github.com/monicadfm/Sidescroller-Game-Code)**: *academic project*<br>
+  A 2D survival shooter built from scratch with vanilla JavaScript and the HTML5 Canvas, no game engine: waves of five slime types, a five-layer parallax world, dashing, shooting with a cooldown, health and live score.<br>
+  <sub>`JavaScript` · `HTML5 Canvas` · `CSS`</sub>
 
   <a href="https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html"><img src="https://img.shields.io/badge/%E2%96%B6-Play_in_browser-FF4F9A?style=flat-square&labelColor=1A1A1A" alt="Play in browser" /></a><br>
-  <sub><kbd>A</kbd> <kbd>D</kbd> move · <kbd>W</kbd> jump · <kbd>Space</kbd> dash · <kbd>U</kbd> attack</sub>
+  <sub><kbd>A</kbd> <kbd>D</kbd> move · <kbd>W</kbd> jump · <kbd>Space</kbd> dash · <kbd>U</kbd> shoot</sub>
 
-- **Pixel-art Profile Banner**: *this page's header*<br>
+- **[Pixel-art Profile Banner](https://github.com/monicadfm/monicadfm/tree/main/tools)**: *this page's header*<br>
   An animated SVG banner generated with a Python script: custom pixel font, SMIL animations, fireworks drawn with trigonometry.<br>
   <sub>`Python` · `SVG`</sub>
 
