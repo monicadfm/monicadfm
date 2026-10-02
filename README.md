@@ -50,8 +50,10 @@ monica@dev:~$ ls ./projects
 
 - **[Roguelike Sidescroller](https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html)**: *academic project*<br>
   A browser roguelike built from scratch with vanilla JavaScript and canvas.<br>
-  <sub>`JavaScript` · `HTML` · `CSS`</sub><br>
-  [![Play in browser](https://img.shields.io/badge/%E2%96%B6_Play_in_browser-FF4F9A?style=flat-square&labelColor=1A1A1A)](https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html)
+  <sub>`JavaScript` · `HTML` · `CSS`</sub>
+
+  <a href="https://monicadfm.github.io/Sidescroller-Game-Code/Menu/index.html"><img src="https://img.shields.io/badge/%E2%96%B6-Play_in_browser-FF4F9A?style=flat-square&labelColor=1A1A1A" alt="Play in browser" /></a><br>
+  <sub><kbd>A</kbd> <kbd>D</kbd> move · <kbd>W</kbd> jump · <kbd>Space</kbd> dash · <kbd>U</kbd> attack</sub>
 
 - **Pixel-art Profile Banner**: *this page's header*<br>
   An animated SVG banner generated with a Python script: custom pixel font, SMIL animations, fireworks drawn with trigonometry.<br>
